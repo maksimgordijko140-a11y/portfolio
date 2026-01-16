@@ -6,14 +6,14 @@
 
 }
 
-div{
-    text-align: end;
-    display: flex;
-    flex-direction: row-reverse;
-    height: 150px;
-    width: 100%;
-}
+
 img{
     flex-wrap: wrap;
     margin: 10px;
+    height: 150px;
+    position: absolute;
+    right: 1%;
+}
+#img2{
+    bottom: 60%;
 }
