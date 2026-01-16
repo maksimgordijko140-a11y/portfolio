@@ -11,9 +11,6 @@ img{
     flex-wrap: wrap;
     margin: 10px;
     height: 150px;
-    position: absolute;
     right: 1%;
-}
-#img2{
-    bottom: 60%;
+    float: right;
 }
