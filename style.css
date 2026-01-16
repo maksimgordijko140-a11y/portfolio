@@ -1,0 +1,19 @@
+#phone{
+    user-select: all;
+}
+#phone::selection{
+    color: blue;
+
+}
+
+div{
+    text-align: end;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 150px;
+    width: 100%;
+}
+img{
+    flex-wrap: wrap;
+    margin: 10px;
+}
