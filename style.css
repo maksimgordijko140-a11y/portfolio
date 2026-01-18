@@ -1,16 +1,33 @@
-#phone{
-    user-select: all;
+.container{
+    display: grid;
+    grid-template-areas: "header img1" "h2 img2" "p1 p1" "p2 p2" "p3 p3";
 }
-#phone::selection{
-    color: blue;
-
+   
+h1{
+    grid-area: header;
 }
-
 
 img{
-    flex-wrap: wrap;
-    margin: 10px;
-    height: 150px;
-    right: 1%;
-    float: right;
+    height: 100px;
+    width: 170px;
+
+}
+
+.img1{
+    grid-area: img1;
+}
+h2{
+    grid-area: h2;
+}
+.img2{
+    grid-area: img2;
+}
+.p1{
+    grid-area: p1;
+}
+.p2{
+    grid-area: p2;
+}
+.p3{
+    grid-area: p3;
 }
